@@ -19,11 +19,11 @@ describe('test extract', function () {
     fs.mkdirSync(cacheDir)
   })
 
-  // it('should extract zip with progress bar', async function () {
-  //   let source = path.join(__dirname, 'fixtures.zip')
-  //
-  //   await extract(source, cacheDir)
-  // })
+  it('should extract zip with progress bar', async function () {
+    let source = path.join(__dirname, 'fixtures.zip')
+
+    await extract(source, cacheDir)
+  })
 
   it('should extract tar.gz with progress bar', async function () {
     let source = path.join(__dirname, 'fixtures.tar.gz')
