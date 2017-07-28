@@ -1,6 +1,6 @@
 {
   "name": "progress-extract",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "extract compress file with progress bar",
   "main": "lib/index.js",
   "scripts": {
